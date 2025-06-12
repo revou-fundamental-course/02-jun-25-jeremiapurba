@@ -7,7 +7,7 @@ function validateForm() {
     console.log(nameInput.value);
     if (nameInput.value == '') {
         // Action ketika value kosong
-        alert('Please enter your name before submitting.');
+        alert('Please Fill in Your Form Before Submitting.');
     }   else {
         // Action ketika value tidak kosong
         alert(`Hai ${nameInput.value}, Terima kasih telah mengisi form nama anda.`);
