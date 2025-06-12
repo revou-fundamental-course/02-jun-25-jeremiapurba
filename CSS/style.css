@@ -1,3 +1,4 @@
+/* Header Component */
 .main-header{
     display: flex;
     justify-content: space-between
@@ -9,6 +10,8 @@
     border-radius: 50%;
     background-size: cover;
 }
+
+/* Navbar Component */
 nav {
     display: flex;
     align-content: center;
@@ -20,4 +23,100 @@ nav > a {
     color: black;
     text-decoration: none;
     border-radius: 4px;
+}
+
+/* Jarak antar link navbar */
+section {
+    height: 600px;
+}
+
+/* Banner auto slide */
+.banner-img {
+    height: 500px;
+    background-image: url(https://www.scubadiving.com/sites/default/files/styles/655_1x_/public/trevor/DSC03003_edit_0.jpg?itok=s5XOmsjb);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-1 {
+    background-image: url(https://indonewsdaily.com/wp-content/uploads/2021/09/7-Cara-Melamar-Pekerjaan-Agar-Lebih-Cepat-Diterima-dengan-Mudah-1.jpg); 
+}
+.img-2 {
+    background-image: url(https://img.lovepik.com/photo/20211204/medium/lovepik-business-women-working-in-cafe-with-laptop-picture_501530722.jpg); 
+}
+.img-3 {
+    background-image: url(https://intacapitalswiss.com/wp-content/themes/yootheme/cache/d2/bank-gaurantee-1840x1300-1-d2c3a147.webp); 
+}
+.img-4 {
+    background-image: url(https://www.adira.co.id/img/frontend/news/thumb_orang-sukses-artikel.jpg); 
+}
+.img-5 {
+    background-image: url(https://storage.googleapis.com/storage-ajaib-prd-platform-wp-artifact/2020/05/menjadi-miliarder.jpg); 
+}
+
+/* Footer Component */  
+footer {
+    text-align: center;
+}
+
+/* ===== Tambahan untuk My Profiles ===== */
+
+/* Styling untuk halaman profil */
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* foto untuk profil */
+.profile-img {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://i.pinimg.com/736x/f9/6d/8c/f96d8c7a165f1969c44227e019ff3e6f.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+/* Informasi profil utama */
+.profile-info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.profile-info p {
+    margin: 5px 0;
+}
+
+/* Row untuk gambar-gambar profil */
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.image-item img:hover {
+    transform: scale(1.05);
+}
+
+.image-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
 }
